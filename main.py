@@ -54,7 +54,7 @@ def clock():
 
 # Kingston City ID: 5992495
 cId = 5992495
-url = 'http://api.openweathermap.org/data/2.5/weather?id=5992495&appid=4489e5b388fec0529f5f088637031035&units=metric'
+url = 'http://api.openweathermap.org/data/2.5/weather?id=5992495&appid=YOUR_API_KEY&units=metric'
 
 res = requests.get(url)
 data = res.json()
